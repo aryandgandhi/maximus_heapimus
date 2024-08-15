@@ -1,6 +1,6 @@
-from max_heap import MaxHeap
+import max_heap
 
-arr = [1,2,3,4]
+arr = [1,2,3100,4]
 
-MaxHeap.heapify(arr)
+max_heap.heapify(arr)
 print(arr)
